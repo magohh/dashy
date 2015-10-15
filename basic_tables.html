@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Dashboard">
+    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+
+    <title>Adventure time: Dashboard</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/adventure-time-theme.css" rel="stylesheet">
+    <link href="css/adventure-time-theme-responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <!-- Menu desplegable -->
+      <div class="row m-gray">
+        <div class="col-lg-1">
+          <div class="btn-group p-left">
+            <div class="btn-group">
+              <button class="btn btn-default btn-sm dropdown-toggle m-gray"
+                      type="button" data-toggle="dropdown">
+                <span class="glyphicon glyphicon-align-justify"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Acción #1</a></li>
+                <li><a href="#">Acción #2</a></li>
+                <li><a href="#">Acción #3</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Acción #4</a></li>
+              </ul>
+            </div>  
+          </div>
+        </div>
+        <div class="col-lg-6 text-left">
+          <h5 class="men1">ADVENTURE TIME:DASHBOARD</h5>
+        </div>
+        <div class="col-lg-5 text-right">
+          <a href="#myModal" role="button" class="btn btn-custom" data-toggle="modal">Logout</a>
+        </div>
+      </div>
+<!-- Menú -->
+      <div class="row">
+        <div class="col-lg-2 hidden-xs">
+          <ul class=" m-gray nav  nav-stacked navbar-inverse text-center">
+            <li><img class="text-center princess" src="img/profile_avatar.png" alt=""></li>
+            <li>Bonnibel Bubblegum</li>
+          </ul>
+          <ul class="m-gray nav  nav-stacked navbar-inverse sidebar-menu m-no-top">
+            <li><a href="#" class="purple m-top2">Dashboard</a></li>
+            <li><a href="buttons.html" class="purple">Buttons</a></li>
+            <li><a href="#" class="purple">Progress Bars</a></li>
+            <li><a href="#" class="purple">Forms</a></li>
+            <li><a href="#" class="purple">Data Tables</a></li>
+            <li><a href="#" class="purple">Gallery</a></li>
+            <li><a href="#" class="purple">Login Page</a></li>
+          </ul>
+        </div>
+<!-- Basic table examples -->
+        <div class="col-lg-10">
+          <h3>Basic table Examples</h3>
+          <div class="panel panel-default">
+<!-- Basic table -->
+            <div class="panel-body pn pa-1">
+              <h4>>Basic Table</h4>
+              <table class="table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>First name</th>
+                        <th>Last name</th>
+                        <th>Username</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Rocky</td>
+                        <td>Balboa</td>
+                        <td>rockybalboa@</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Peter</td>
+                        <td>Parker</td>
+                        <td>peterparker@</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>John</td>
+                        <td>Rambo</td>
+                        <td>johnrambo@</td>
+                    </tr>
+                </tbody>
+                </table>
+            </div>
+          </div>
+<!-- Hover Table -->
+          <div class="panel panel-default">
+            <div class="panel-body pn pa-1">
+              <h4>>Hover Table</h4>
+              <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>First name</th>
+                        <th>Last name</th>
+                        <th>Username</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Rocky</td>
+                        <td>Balboa</td>
+                        <td>rockybalboa@</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Peter</td>
+                        <td>Parker</td>
+                        <td>peterparker@</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>John</td>
+                        <td>Rambo</td>
+                        <td>johnrambo@</td>
+                    </tr>
+                </tbody>
+                </table>
+            </div>
+          </div>
+<!-- Advanced Table -->
+          <div class="panel panel-default">
+            <div class="panel-body pn pa-1">
+              <h4>>Advanced Table</h4>
+              <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>
+                          <i class="fa fa-bullhorn"></i>
+                          Company
+                        </th>
+                        <th>
+                          Descrition
+                          <i class="fa fa-question-circle"></i>
+                        </th>
+                        <th>
+                          <i class="fa fa-bookmark"></i>
+                          Profit
+                        </th>
+                        <th>
+                          <i class="fa fa-pencil-square-o"></i>
+                          Status
+                        </th>
+                        <th>
+                          <button type="button" class="xs text-small btn btn-success">
+                            <span class="glyphicon glyphicon-pencil"></span>
+                          </button>
+                          <button type="button" class="xs text-small btn btn-primary">
+                            <span class="glyphicon glyphicon-ok"></span>
+                          </button>
+                          <button type="button" class="xs text-small btn btn-danger">
+                            <span class="glyphicon glyphicon-trash"></span>
+                          </button>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Rocky</td>
+                      <td>Balboa</td>
+                      <td>
+                        <span class="label label-info">Due</span>
+                      </td>
+                      <th>
+                          <button type="button" class="xs text-small btn btn-success">
+                            <span class="glyphicon glyphicon-pencil"></span>
+                          </button>
+                          <button type="button" class="xs text-small btn btn-primary">
+                            <span class="glyphicon glyphicon-ok"></span>
+                          </button>
+                          <button type="button" class="xs text-small btn btn-danger">
+                            <span class="glyphicon glyphicon-trash"></span>
+                          </button>
+                        </th>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Peter</td>
+                      <td>Parker</td>
+                       <td>
+                        <span class="label label-warning">Due</span>
+                      </td>
+                      <th>
+                          <button type="button" class="xs text-small btn btn-success">
+                            <span class="glyphicon glyphicon-pencil"></span>
+                          </button>
+                          <button type="button" class="xs text-small btn btn-primary">
+                            <span class="glyphicon glyphicon-ok"></span>
+                          </button>
+                          <button type="button" class="xs text-small btn btn-danger">
+                            <span class="glyphicon glyphicon-trash"></span>
+                          </button>
+                        </th>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Peter</td>
+                      <td>Parker</td>
+                      <td>
+                        <span class="label label-success">Paid</span>
+                      </td>
+                      <th>
+                          <button type="button" class="xs text-small btn btn-success">
+                            <span class="glyphicon glyphicon-pencil"></span>
+                          </button>
+                          <button type="button" class="xs text-small btn btn-primary">
+                            <span class="glyphicon glyphicon-ok"></span>
+                          </button>
+                          <button type="button" class="xs text-small btn btn-danger">
+                            <span class="glyphicon glyphicon-trash"></span>
+                          </button>
+                        </th>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Peter</td>
+                      <td>Parker</td>
+                      <td>
+                        <span class="label label-success">Paid</span>
+                      </td>
+                      <th>
+                          <button type="button" class="xs text-small btn btn-success">
+                            <span class="glyphicon glyphicon-pencil"></span>
+                          </button>
+                          <button type="button" class="xs text-small btn btn-primary">
+                            <span class="glyphicon glyphicon-ok"></span>
+                          </button>
+                          <button type="button" class="xs text-small btn btn-danger">
+                            <span class="glyphicon glyphicon-trash"></span>
+                          </button>
+                        </th>
+                    </tr>
+                </tbody>
+                </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/common-scripts.js"></script>
+  </body>
+</html>

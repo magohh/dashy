@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Dashboard">
+    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+
+    <title>Adventure time: Dashboard</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/adventure-time-theme.css" rel="stylesheet">
+    <link href="css/adventure-time-theme-responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+<!-- Menu desplegable -->
+    <div class="row m-gray">
+      <div class="col-lg-1">
+        <div class="btn-group p-left">
+          <div class="btn-group">
+            <button class="btn btn-default btn-sm dropdown-toggle m-gray"
+                    type="button" data-toggle="dropdown">
+              <span class="glyphicon glyphicon-align-justify"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Acción #1</a></li>
+              <li><a href="#">Acción #2</a></li>
+              <li><a href="#">Acción #3</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Acción #4</a></li>
+            </ul>
+          </div>  
+        </div>
+      </div>
+      <div class="col-lg-6 text-left">
+        <h5 class="men1">ADVENTURE TIME:DASHBOARD</h5>
+      </div>
+      <div class="col-lg-5 text-right">
+        <a href="#myModal" role="button" class="btn btn-custom" data-toggle="modal">Logout</a>
+      </div>
+    </div>
+<!-- Menú -->
+    <div class="row">
+      <div class="col-lg-2 hidden-xs">
+        <ul class=" m-gray nav  nav-stacked navbar-inverse text-center">
+          <li><img class="text-center princess" src="img/profile_avatar.png" alt=""></li>
+          <li>Bonnibel Bubblegum</li>
+        </ul>
+        <ul class="m-gray nav  nav-stacked navbar-inverse sidebar-menu m-no-top h-all">
+          <li><a href="#" class="purple m-top2">Dashboard</a></li>
+          <li><a href="#" class="purple">Buttons</a></li>
+          <li><a href="#" class="purple">Progress Bars</a></li>
+          <li><a href="#" class="purple">Forms</a></li>
+          <li><a href="#" class="purple">Data Tables</a></li>
+          <li><a href="#" class="purple">Gallery</a></li>
+          <li><a href="#" class="purple">Login Page</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-10">
+<!-- Form components -->
+        <h3>Form Components</h3>
+        <div class="panel panel-default">
+          <div class="panel-body pn pa-1">
+            <h4>>Form elements</h4>
+            <form class="form-horizontal ">
+<!-- Default -->
+              <div class="row">
+                <div class="form-group">
+                 <label for="inputName" class="control-label col-lg-2">Default</label>
+                 <div class="col-lg-10">
+                    <input type="name" class="form-control inline">
+                 </div>
+                </div>
+              </div>
+              <hr>
+<!-- Help text -->
+              <div class="row">
+                <div class="form-group">
+                 <label for="inputName" class="control-label col-lg-2">Help text</label>
+                 <div class="col-lg-10">
+                    <input type="name" class="form-control inline" >
+                    <p>A block of help text that breaks onto a new line and may extend beyond one line.</p>
+                 </div>
+                </div>
+              </div>
+              <hr>
+<!-- Rounder -->
+              <div class="row">
+               <div class="form-group">
+                <label for="inputName" class="control-label col-lg-2">Rounder</label>
+                <div class="col-lg-10">
+                  <input type="name" class="round-form form-control inline" >
+                </div>
+              </div>
+             </div>
+             <hr>
+<!-- Input focus -->
+              <div class="row">
+               <div class="form-group">
+                <label for="inputName" class="control-label col-lg-2">Input focus</label>
+                <div class="col-lg-10">
+                  <input class="form-control" id="focusedInput" type="text" value="This is focused...">
+                </div>
+              </div>
+             </div>
+             <hr>
+<!-- Disabled -->
+              <div class="row">
+               <div class="form-group">
+                <label for="inputPassword" class="col-sm-2 control-label">Disabled</label>
+                <div class="col-sm-10">
+                  <input class="form-control" id="disabledInput" type="text" disabled value="Disabled input here...">
+                </div>
+              </div>
+             </div>
+             <hr>
+<!-- Place holder -->
+             <div class="row">
+                <div class="form-group">
+                 <label for="inputName" class="control-label col-lg-2">Place holder</label>
+                 <div class="col-lg-10">
+                    <input type="name" class="form-control inline" placeholder="place holder">
+                 </div>
+                </div>
+              </div>
+              <hr>
+<!-- Password --> 
+              <div class="row">
+                <div class="form-group">
+                  <label for="pwd" class="control-label col-lg-2">Password</label>
+                  <div class="col-lg-10">
+                    <input type="password" class="form-control" id="pwd">
+                 </div> 
+                </div>
+              </div>
+              <hr>
+<!-- Static control -->  
+              <div class="row"> 
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">Static control</label>
+                  <div class="col-sm-10">
+                    <p class="form-control-static">email@example.com</p>
+                  </div>
+                </div>
+              </div>
+              <hr> 
+            </form> 
+         </div>    
+        </div>
+<!-- Inline form --> 
+        <div class="panel panel-default">
+          <div class="panel-body pn pa-1">
+            <h4>>Inline Form</h4>
+            <form class="form-inline">
+              <div class="form-group">
+                <label for="exampleInputEmail2">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email" >
+              </div>
+              <div class="form-group">
+                <label for="inputPassword2" class="sr-only">Password</label>
+                <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+              </div>
+              <button type="submit" class="btn">Sign in</button>
+            </form>
+          </div>
+        </div>
+<!-- Input messages--> 
+        <div class="panel panel-default">
+          <div class="panel-body pn pa-1">
+            <h4>>Input Messages</h4>
+            <div class="form-group has-success">
+              <label class="control-label" for="inputSuccess">Campo con un valor válido</label>
+              <input type="text" class="form-control" id="campoValido">
+            </div>
+            <div class="form-group has-warning">
+              <label class="control-label" for="inputWarning">Campo con una advertencia</label>
+              <input type="text" class="form-control" id="campoAdvertencia">
+            </div>
+            <div class="form-group has-error">
+              <label class="control-label" for="inputError">Campo con un error</label>
+              <input type="text" class="form-control" id="campoError">
+            </div>
+          </div>
+        </div>
+<!-- Checkboxes, radio and selects --> 
+        <div class="panel panel-default">
+          <div class="panel-body pn pa-1">
+              <h4>>Checkboxes, Radio & Selects</h4>
+              <div class="checkbox">
+<!-- checkboxes --> 
+              <label>
+                <input type="checkbox" value="">
+                Esta es una opción muy interesante que tienes que pinchar
+              </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="opciones" id="opciones_1" value="opcion_1" checked>
+                  Esta es una opción muy interesante que tienes que pinchar
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="opciones" id="opciones_2" value="opcion_2">
+                  Esta otra opción también es muy interesante y al pincharla, deseleccionas la opción anterior
+                </label>
+              </div>
+              <hr>
+              <label class="checkbox-inline">
+                <input type="checkbox" id="checkboxEnLinea1" value="opcion_1"> 1
+              </label>
+              <label class="checkbox-inline">
+                <input type="checkbox" id="checkboxEnLinea2" value="opcion_2"> 2
+              </label>
+              <label class="checkbox-inline">
+                <input type="checkbox" id="checkboxEnLinea3" value="opcion_3"> 3
+              </label>
+              <hr>
+<!-- select --> 
+              <select class="form-control">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>  
+              <select multiple class="form-control">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+          </div>
+        </div>
+       </div>
+      </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/common-scripts.js"></script>
+  </body>
+</html>

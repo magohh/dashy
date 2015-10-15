@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="Dashboard">
+	<meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+
+	<title>Adventure time: Dashboard</title>
+
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/font-awesome.css" rel="stylesheet" />
+  <link href="css/adventure-time-theme.css" rel="stylesheet">
+  <link href="css/adventure-time-theme-responsive.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+  </head>
+  <body class="">
+    <div class="container">
+    <!-- Button to trigger modal --> 
+    <a href="#myModal" role="button" class="btn btn-custom" data-toggle="modal">Login</a>
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog av-width">
+          <div class="modal-content">
+            <div class="modal-header label-info">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title text-white text-center">AVENTURE TIME <br>DASHBOARD</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" name="commentform" method="post" action="send_form_email_sleep_re.php">
+                    <div class="form-group">
+                        <label class="control-label col-md-4" for="first_name"></label>
+                        <div class="col-md-12">
+                          <input type="text" class="form-control" id="first_name" name="first_name" placeholder="First Name" value="User ID">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-4" for="last_name"></label>
+                        <div class="col-md-12">
+                            <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Last Name" value="Password">
+                        </div>
+                    </div>
+                    <div class="text-right text-small">
+                      <a href="#">¿Te olvidaste del password?</a>
+                    </div>
+                    <ul class="list-inline text-center">
+                      <li>
+                        <button type="submit" value="Submit" class="btn btn-custom ing" id="send_btn" data-original-title="" title=""><span class="glyphicon glyphicon-lock"></span > INGRESAR</button>
+                      </li>
+                    </ul>  
+                    <div class="text-right text-small m-top">
+                      <p>O puedes ingresar via tu red social</p>
+                    </div>
+                    <ul class="list-inline text-center">
+                      <li>
+                        <button type="submit" value="Facebook" class="btn btn-custom btn-primary" id="send_btn" data-original-title="" title=""><i class="fa fa-facebook "></i>  Facebook</button>
+                      </li>
+                      <li>
+                        <button type="submit" value="Twitter" class="btn btn-custom btn-info" id="send_btn" data-original-title="" title=""><i class="fa fa-twitter"></i>  Twitter</button>
+                      </li>
+                    </ul>
+                    <div class="text-center text-small">
+                      <p>¿No tienes cuenta aún?</p>
+                      <a href="#">Crea tu cuenta</a>
+                    </div>
+                </form>
+            </div><!-- End of Modal body -->
+          </div><!-- End of Modal content -->
+        </div><!-- End of Modal dialog -->
+     </div><!-- End of Modal -->
+    </div><!-- End of Container -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <script>
+    $('#send_btn').popover({content: 'Thank You'},'click'); 
+    </script>
+
+
+  	<script src="js/jquery.js"></script>
+  	<script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
